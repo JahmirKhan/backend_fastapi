@@ -3,7 +3,6 @@ from . import crud
 from . import models
 from . import schemas
 
-from icecream import ic
 from datetime import datetime
 
 
@@ -42,5 +41,3 @@ def change_item(db: Session, id: int, item: schemas.ItemCreate):
 
     db.commit()
     return db_item
-
- 
