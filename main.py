@@ -94,7 +94,7 @@ async def change_item(id: int, item: schemas.ItemCreate, db: Session = Depends(g
     return changed_item        
 
 
-"""Это все хуйня от которой нужно избавиться, но жалко("""
+"""Это все фигня от которой нужно избавиться, но жалко("""
 # @app.get("/items/{id}", response_model=ItemResponse)
 # async def read_item(id: int, db: Session = Depends(get_db)):
 #     db_item = db.query(Item).filter(Item.id == id).first()
